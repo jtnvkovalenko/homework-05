@@ -190,10 +190,7 @@ a {
     background-position: center;
 }
 
-.prev:hover {
-    background-color: rgb(26, 188, 156);
-}
-
+.prev:hover,
 .next:hover {
     background-color: rgb(26, 188, 156);
 }
