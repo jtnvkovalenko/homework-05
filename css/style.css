@@ -9,7 +9,6 @@ html {
 }
 
 body {
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -50,13 +49,13 @@ a {
 /* HEADER NAVIGATION */
 
 .header {
-    width: 1110px;
     margin: 0 auto;
     margin-bottom: 32px;
     padding-top: 36px;
 }
 
-.conteiner {
+.container {
+    width: 1110px;
     margin: 0 auto;
 }
 
@@ -198,7 +197,7 @@ a {
 /* COLLECTION */
 
 .section__product {
-    max-width: 1600px;
+    max-width: 100%;
     background-color: rgb(233, 240, 253);
 }
 
@@ -328,13 +327,14 @@ a {
 }
 
 .overlay__list-item-button {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     border: 1px solid rgba(255, 255, 255);
     cursor: pointer;
     background: transparent;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 8px;
 }
 
 .overlay__list-item-button:hover {
@@ -343,31 +343,21 @@ a {
 
 .overlay__list-item-button__heart {
     background-image: url("../images/collections/buttons/heart.png");
-    width: 50px;
-    height: 50px;
     margin-right: 8px;
-    margin-bottom: 8px;
 }
 
 .overlay__list-item-button__arrows {
     background-image: url("../images/collections/buttons/arrows.png");
-    width: 50px;
-    height: 50px;
     margin-right: 8px;
-    margin-bottom: 8px;
 }
 
 .overlay__list-item-button__clock {
     background-image: url("../images/collections/buttons/clock.png");
-    width: 50px;
-    height: 50px;
-    margin-bottom: 8px;
 }
 
 .overlay__list-item-button__cart {
     background-image: url("../images/collections/buttons/cart.png");
     width: 166px;
-    height: 50px;
     background-color: rgb(50, 50, 50);
     color: #fff;
     font-weight: lighter;
